@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/d-o-n-u-t-s/lz4msgpack"
-  packages = ["."]
-  revision = "68fcbfe5130de9da80dfc74cae4517438865a870"
-
-[[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto"]
   revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
@@ -35,7 +29,7 @@
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context"]
-  revision = "c4299a1a0d8524c11563db160fbf9bddbceadb21"
+  revision = "3673e40ba22529d22c3fd7c93e97b0ce50fa7bdd"
 
 [[projects]]
   name = "google.golang.org/appengine"
@@ -56,6 +50,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b067c6531b313becebada29a05f66a7e17686142e730a7c1642af6096dd0d014"
+  inputs-digest = "123427b56dc570b0713febf132699cbe05ae585043cc04a42082faa3a776e361"
   solver-name = "gps-cdcl"
   solver-version = 1

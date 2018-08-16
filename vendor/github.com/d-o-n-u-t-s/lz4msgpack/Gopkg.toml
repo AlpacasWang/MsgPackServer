@@ -26,17 +26,13 @@
 
 
 [[constraint]]
-  name = "github.com/ugorji/go"
-  version = "1.1.1"
-
-[prune]
-  go-tests = true
-  unused-packages = true
+  name = "github.com/pierrec/lz4"
+  version = "2.0.3"
 
 [[constraint]]
   name = "github.com/vmihailenco/msgpack"
   version = "3.3.3"
 
-[[constraint]]
-  branch = "master"
-  name = "github.com/d-o-n-u-t-s/lz4msgpack"
+[prune]
+  go-tests = true
+  unused-packages = true
